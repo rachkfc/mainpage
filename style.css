@@ -149,3 +149,11 @@ form input[type="submit"]:hover {
 form textarea {
   height: 150px;
 }
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
