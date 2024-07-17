@@ -1,10 +1,11 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
 /* nav bar */
 nav {
-  background-color: #fffcfc;
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,4 +50,64 @@ li a:hover {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.sub-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Main content */
+.main-content {
+  padding: 20px;
+  padding-left: 0px; /* Add padding-left property with a value of 40px */
+}
+
+.sub-banner2 {
+  background-color: #f8e4e4;
+  padding: 80px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sub-banner2 h1 {
+  text-align: left;
+  font-size: 40px;
+}
+.sub-banner2 p {
+  font-size: 30px;
+  text-align: left;
+}
+
+.sub-banner2 p1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* subbanner3 */
+.sub-banner3 {
+  background-color: #f9f9f9;
+  padding: 0px;
+  text-align: center;
+}
+
+/* footer */
+.Footer {
+  background-color: #d8d3d3;
+  padding: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.Footer p {
+  margin: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.Footer p:last-child {
+  margin-top: 10px;
+  color: #555;
 }
