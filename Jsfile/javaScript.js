@@ -18,6 +18,9 @@ var names = ["Nice", "Harsh", "Cute"];
 // Create a container element to hold the cake images
 var cakeContainer = document.createElement("div");
 cakeContainer.classList.add("cake-container");
+cakeContainer.style.display = "flex";
+cakeContainer.style.justifyContent = "center";
+cakeContainer.style.alignItems = "center";
 
 // Loop through the cake images array and create image elements
 for (var i = 0; i < cakeImages.length; i++) {
@@ -30,6 +33,6 @@ for (var i = 0; i < cakeImages.length; i++) {
   cakeImage.style.borderRadius = "10px"; // Add border radius for rounded corners
   cakeContainer.appendChild(cakeImage);
 }
-// Append the cake container to the sub banner element
-subBanner.appendChild(cakeContainer);
-g;
+
+// Append the cake container to the document body
+document.body.appendChild(cakeContainer);
