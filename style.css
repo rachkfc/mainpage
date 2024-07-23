@@ -192,7 +192,7 @@ form textarea {
 .cart {
   margin: 0 auto;
   margin-top: 20px;
-  padding: 20px;
+  padding: 10px;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -200,9 +200,9 @@ form textarea {
 }
 
 .cart table {
-  width: 70%;
+  width: 80%;
   border-collapse: collapse;
-  margin: 0 auto; /* Add margin property with a value of 0 auto */
+  margin: auto; /* Add margin property with a value of 0 auto */
 }
 
 .cart th,
@@ -240,4 +240,28 @@ form textarea {
 
 .checkout-button button:hover {
   background-color: pink;
+}
+
+select {
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 8.5L2.5 5h7L6 8.5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #999;
+}
+
+select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.3);
 }
