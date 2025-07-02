@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Farewell Cake🎂</title>
-    <link rel="icon" href="pic/ShopIcon.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotaract Club of HK Financial Centre</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+  }
+</script>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <ul>
-            <li><a href="index.html"</ul>Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li>
-            <a href="index.html"
-                ><img src="pic/Brand Logo.png" style="width: 90px; height: 50px"
-            /></a>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html">Cart 🛒</a></li>
-            <li style="position: absolute; top: 1; right: 0;"><a href="index.html">🇨🇳中文
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-        </ul>
-        </ul>
-    </nav>
-    <!-- Main Banner -->
-    <div class="banner">
-        <img src="pic/MainBanner.png" />
-    </div>
-    <!-- Sub banner -->
-    <div class="sub-banner">
-        <h1>Get your Farewell Cake Now !!!🎂</h1>
-        <div class="cake-container">
-            <img src="pic/cake1.png" class="cake-image" style="width: 350px; height: 300px; margin: 20px; border-radius: 10px;">
-            <img src="pic/cake2.png" class="cake-image" style="width: 350px; height: 300px; margin: 20px; border-radius: 10px;">
-            <img src="pic/cake3.png" class="cake-image" style="width: 350px; height: 300px; margin: 20px; border-radius: 10px;">
+  <header>
+<nav class="navbar">
+  <a href="#" class="logo">
+    <img src="public/ClubLogoLong.png" alt="Club Logo">
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+</nav>
+  </header>
+
+<section class="hero">
+  <img src="public/MainPhoto/Installation.JPG" alt="Main Banner" class="hero-img">
+  <div class="hero-text">
+    <h1>Welcome to Rotaract HKFC</h1>
+    <p>Empowering youth through community service</p>
+    <a href="https://www.instagram.com/rachkfc/" class="cta-button">Join Us</a>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="container about-card">
+    <h2>📝 About Us</h2>
+    <p>
+      Rotaract Club of Hong Kong Financial Centre is a youth-led service organization under Rotary International. Established by passionate young leaders, we are committed to creating positive change through community service, professional development, and cultural exchange.
+    </p>
+    <ul class="about-list">
+      <li>✨ Serve the local and global community</li>
+      <li>💬 Develop leadership and soft skills</li>
+      <li>🌏 Connect with like-minded individuals across Hong Kong and beyond</li>
+    </ul>
+    <p>
+      From social impact projects and fundraising campaigns to personal growth workshops and fellowship events, we strive to live out the Rotaract motto:<br>
+      <span class="about-motto">"Fellowship Through Service."</span>
+    </p>
+    <ul class="about-details">
+      <li>📍 Based in Hong Kong</li>
+      <li>💼 Sponsored by the Rotary Club of Hong Kong Financial Centre</li>
+      <li>🎯 Open to all passionate individuals aged 18–30</li>
+    </ul>
+    <p class="about-cta">Join us to grow, lead, and serve — together.</p>
+  </div>
+</section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="public/MainPhoto/CareerDay.png" alt="Cake Project">
+          <h3>Rotaract CareerDay</h3>
+          <p>It was an inspiring session exploring current career trends and how students can better prepare for the future</p>
         </div>
+        <div class="card">
+          <img src="public/MainPhoto/BeachCleaning.png"" alt="Workshop">
+          <h3>Beach cleanup</h3>
+          <p>HTo celebrate #EarthDay, we joined young eco-warriors from Holm Glad Primary School for a fun beach cleanup at Ma Wan Bei!</p>
+        </div>
+        <div class="card">
+          <img src="public/MainPhoto/Cardgame.png" alt="Cleanup">
+          <h3>Family Communication Card Game</h3>
+          <p>That morning, mentors from St. John's Cathedral LIFE Centre led us and volunteers to play emotion cards with Tung Chung families.</p>
+        </div>
+      </div>
     </div>
-    <!-- Image Gallery -->
-    <div class="sub-banner2">
-        <h1>Why Buying Cake From Final Cake?🤨</h1>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;We offer multiple types of cake🍰</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;We offer the cheapest price in the market🤑</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;We offer free delivery📦</p>
-    </div>
-    <div class="sub-banner3">
-        <h1>What's new in Final Cake?🆕</h1>
-        <img class="show-modal" src="pic/Subbanner1.png" style="width: 450px; height: 680px; margin: 20px; border-radius: 10px;">
-        <img  class="show-modal" src="pic/Subbanner2.png" style="width: 450px; height: 680px; margin: 20px; border-radius: 10px;">
-    </div>
-
-
-    </div>
-    <div class="Footer">
-        <p>Privacy Policy</p>
-        <p>Terms of Use</p>
-        <p>Sales Policy</p> 
-        <p>&copy; 2024 Final Cake. All rights reserved.</p>
-    </div>
-</div>
-
-
+  </section>
+  <footer>
+    <p>&copy; 2025 Rotaract Club of HK Financial Centre. All rights reserved.</p>
+  </footer>
 </body>
-  </body>
-  <script src="Jsfile/javaScript.js"></script>
 </html>
